@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "node": "node --experimental-modules"
+  },
   "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
     "stellar-sdk": "^2.2.0"
-  }
+  },
+  "type": "module"
 }
